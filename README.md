@@ -20,6 +20,7 @@ The parameters in these equations were obtained by reading data from the acceler
 ##Contributors 
 
 Andrew Tsomik | atsomik@terpmail.umd.edu (no longer atsomik@udel.edu)
+
 Jacob Portale | jportale@udel.edu
 
 ##Contributions
