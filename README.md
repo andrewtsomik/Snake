@@ -35,7 +35,7 @@ Built output.c and parts of main.c, debugging
 
 ## Instructions
 
-1. To clone the repository, git clone git@gitlab:atsomik/cisc210-final
+1. To clone the repository, git clone https://github.com/andrewtsomik/Snake.git
 2. Run "make all" and then "./final", or "make run" to compile and run
 3. To use the joystick input, Pi must be laying on a flat surface
 4. To play the game by tilt, tilt your Pi in the desired direction of movement
