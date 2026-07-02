@@ -9,11 +9,10 @@ If you can fill the display with your snake, you will be met with a triumphant w
 The theory behind the joystick movement was simple but we wanted to challenge ourselves by having a secondary input.
 I researched the mathematics behind how planes and encorporated pitch and roll.
 These quantities were computed as such:
-'''
+
 double pitch = atan2(coords.y, sqrt(pow(coords.x, 2) + pow(coords.z, 2))) * 57.29578;
 
 double roll = atan2(coords.x, sqrt(pow(coords.y, 2) + pow(coords.z, 2))) * 57.29578;
-'''
 
 The parameters in these equations were obtained by reading data from the accelerometer built into the Raspberry Pi 4 Model B.
 
