@@ -4,6 +4,10 @@ Play snake on your Raspberry Pi 4's Pi Hat in two modes, tilt your Pi to move th
 Pay attention to stdout to see your score but be careful, after 5 losses, the display will turn red and the display will close, terminating your attempt.
 If you can fill the display with your snake, you will be met with a triumphant white display and the program will end.
 
+## Preview
+
+https://github.com/user-attachments/assets/7e1719ab-f48d-4326-956b-411d594bb225
+
 ## Theory
 
 The theory behind the joystick movement was simple but we wanted to challenge ourselves by having a secondary input.
