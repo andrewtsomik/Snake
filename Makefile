@@ -1,9 +1,6 @@
 # Set a variable LDFLAGS. Use the variable as $(LDFLAGS)
 LDFLAGS := -L ./lib/lib -lsense -lm
 
-clean:
-		rm -f *.o final
-
 all: final
 final: main.o input.o output.o
 		cc -o final main.o input.o output.o $(LDFLAGS)
@@ -16,6 +13,9 @@ input.o: input.c project.h
 
 output.o: output.c project.h
 		cc -c output.c -I ./lib/include
+
+clean:
+		rm -f *.o final
 
 run: final
 		./final
