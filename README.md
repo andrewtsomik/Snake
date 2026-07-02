@@ -23,6 +23,9 @@ double roll = atan2(coords.x, sqrt(pow(coords.y, 2) + pow(coords.z, 2))) * 57.29
 
 The parameters in these equations were obtained by reading data from the accelerometer built into the Raspberry Pi 4 Model B.
 
+Pitch and roll were then compared to each other for the program to mathematically determine how the Pi was oriented.
+This computed orientation was then used to move the snake on the 8x8 Pi Hat accordingly.
+
 ## Contributors 
 
 Andrew Tsomik | atsomik@terpmail.umd.edu (no longer atsomik@udel.edu)
