@@ -7,10 +7,11 @@ If you can fill the display with your snake, you will be met with a triumphant w
 ## Theory
 
 The theory behind the joystick movement was simple but we wanted to challenge ourselves by having a secondary input.
-I researched the mathematics behind how planes and encorporated pitch and roll.
+I researched the mathematics behind how planes track altitude and encorporated pitch and roll.
+
 These quantities were computed as such:
 
-'''
+'''c
 double pitch = atan2(coords.y, sqrt(pow(coords.x, 2) + pow(coords.z, 2))) * 57.29578;
 
 double roll = atan2(coords.x, sqrt(pow(coords.y, 2) + pow(coords.z, 2))) * 57.29578;
